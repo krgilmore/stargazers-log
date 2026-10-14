@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Setup Pages
-        uses: sctions/configure-pages@v5
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifacts@v4
         with:
